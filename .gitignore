@@ -1,31 +1,65 @@
 # Python
+
 __pycache__/
 *.py[cod]
 *.pyo
 
 # Virtual environments
+
 .venv/
 venv/
 env/
 
 # Jupyter
+
 .ipynb_checkpoints/
 
-# SQLite database
+# SQLite databases
+
 *.db
 *.sqlite
 *.sqlite3
 
-# Environment / secrets
+# Environment variables and secrets
+
 .env
 .env.*
+!.env.example
 
 # VS Code
+
 .vscode/
 
 # Power BI temporary files
-*.tmp
 
-# OS files
+*.tmp
+*.bak
+~$*.pbix
+
+# Temporary mission outputs
+
+mission*_output.txt
+
+# Temporary audit and inspection artifacts
+
+sql_audit.txt
+audit_relationships.py
+check_schema.py
+check_counts.py
+validate_canonical.py
+
+# Operating system files
+
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Local development and repair-test artifacts
+temp/
+
+# Invoice repair backup - keep local, do not publish
+data/raw/invoices_pre_repair_backup.csv
+
+python/data_generation/generate_invoices_pre_repair_backup.py
+
+python/loaders/load_invoices.py.pre_repair_backup

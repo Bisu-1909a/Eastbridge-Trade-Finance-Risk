@@ -1,0 +1,261 @@
+operational_event_id,shipment_id,event_type,event_date,event_description
+1,1,DEPARTED,2026-02-25,Shipment departed from origin.
+2,1,DELIVERED,2026-03-07,Shipment successfully delivered.
+3,2,DEPARTED,2026-06-24,Shipment departed from origin.
+4,2,CUSTOMS_CLEARANCE,2026-06-27,Shipment underwent customs clearance.
+5,2,DELIVERED,2026-07-09,Shipment successfully delivered.
+6,3,DEPARTED,2026-07-15,Shipment departed from origin.
+7,3,CUSTOMS_CLEARANCE,2026-07-17,Shipment underwent customs clearance.
+8,3,DELAY,2026-07-25,Shipment experienced an operational delay.
+9,3,DELIVERED,2026-08-15,Shipment delivered after operational delay.
+10,4,DEPARTED,2026-06-23,Shipment departed from origin.
+11,4,DELAY,2026-06-27,Shipment experienced an operational delay.
+12,4,DELIVERED,2026-07-06,Shipment delivered after operational delay.
+13,5,DEPARTED,2026-02-28,Shipment departed from origin.
+14,5,CUSTOMS_CLEARANCE,2026-03-04,Shipment underwent customs clearance.
+15,5,DELIVERED,2026-03-07,Shipment successfully delivered.
+16,6,DEPARTED,2026-07-11,Shipment departed from origin.
+17,6,CUSTOMS_CLEARANCE,2026-07-12,Shipment underwent customs clearance.
+18,6,DELIVERED,2026-07-25,Shipment successfully delivered.
+19,7,DEPARTED,2026-03-07,Shipment departed from origin.
+20,7,CUSTOMS_CLEARANCE,2026-03-12,Shipment underwent customs clearance.
+21,7,DELAY,2026-03-09,Shipment experienced an operational delay.
+22,7,DELIVERED,2026-04-03,Shipment delivered after operational delay.
+23,8,DEPARTED,2026-05-12,Shipment departed from origin.
+24,8,CUSTOMS_CLEARANCE,2026-05-14,Shipment underwent customs clearance.
+25,8,DELIVERED,2026-06-01,Shipment successfully delivered.
+26,9,DEPARTED,2026-04-03,Shipment departed from origin.
+27,9,DELIVERED,2026-04-28,Shipment successfully delivered.
+28,10,DEPARTED,2026-06-07,Shipment departed from origin.
+29,10,DELAY,2026-06-10,Shipment experienced an operational delay.
+30,10,DELIVERED,2026-06-22,Shipment delivered after operational delay.
+31,11,DEPARTED,2026-06-09,Shipment departed from origin.
+32,11,CUSTOMS_CLEARANCE,2026-06-14,Shipment underwent customs clearance.
+33,11,DELIVERED,2026-06-29,Shipment successfully delivered.
+34,12,DEPARTED,2026-04-16,Shipment departed from origin.
+35,12,CUSTOMS_CLEARANCE,2026-04-23,Shipment underwent customs clearance.
+36,12,DELIVERED,2026-04-27,Shipment successfully delivered.
+37,13,DEPARTED,2026-07-06,Shipment departed from origin.
+38,13,CUSTOMS_CLEARANCE,2026-07-13,Shipment underwent customs clearance.
+39,13,DELIVERED,2026-07-23,Shipment successfully delivered.
+40,14,DEPARTED,2026-02-06,Shipment departed from origin.
+41,14,CUSTOMS_CLEARANCE,2026-02-10,Shipment underwent customs clearance.
+42,14,DELIVERED,2026-02-25,Shipment successfully delivered.
+43,15,DEPARTED,2026-06-01,Shipment departed from origin.
+44,15,CUSTOMS_CLEARANCE,2026-06-03,Shipment underwent customs clearance.
+45,15,DELAY,2026-06-17,Shipment experienced an operational delay.
+46,15,DELIVERED,2026-06-23,Shipment delivered after operational delay.
+47,16,DEPARTED,2026-04-13,Shipment departed from origin.
+48,16,DELIVERED,2026-05-04,Shipment successfully delivered.
+49,17,DEPARTED,2026-01-14,Shipment departed from origin.
+50,17,CUSTOMS_CLEARANCE,2026-01-15,Shipment underwent customs clearance.
+51,17,DELIVERED,2026-02-02,Shipment successfully delivered.
+52,18,DEPARTED,2026-03-27,Shipment departed from origin.
+53,18,DELAY,2026-04-09,Shipment experienced an operational delay.
+54,18,DELIVERED,2026-04-26,Shipment delivered after operational delay.
+55,19,DEPARTED,2026-02-24,Shipment departed from origin.
+56,19,DELIVERED,2026-03-21,Shipment successfully delivered.
+57,20,DEPARTED,2026-03-20,Shipment departed from origin.
+58,20,DELIVERED,2026-03-29,Shipment successfully delivered.
+59,21,DEPARTED,2026-01-25,Shipment departed from origin.
+60,21,DELAY,2026-02-04,Shipment experienced an operational delay.
+61,21,DELIVERED,2026-02-13,Shipment delivered after operational delay.
+62,22,DEPARTED,2026-03-05,Shipment departed from origin.
+63,22,IN_TRANSIT_UPDATE,2026-03-12,Shipment remains in transit.
+64,23,DEPARTED,2026-04-16,Shipment departed from origin.
+65,23,CUSTOMS_CLEARANCE,2026-04-19,Shipment underwent customs clearance.
+66,23,DELIVERED,2026-05-05,Shipment successfully delivered.
+67,24,DEPARTED,2026-05-25,Shipment departed from origin.
+68,24,DELIVERED,2026-06-12,Shipment successfully delivered.
+69,25,DEPARTED,2026-03-28,Shipment departed from origin.
+70,25,DELIVERED,2026-04-15,Shipment successfully delivered.
+71,26,DEPARTED,2026-04-21,Shipment departed from origin.
+72,26,DELAY,2026-05-01,Shipment experienced an operational delay.
+73,26,DELIVERED,2026-05-11,Shipment delivered after operational delay.
+74,27,DEPARTED,2026-05-27,Shipment departed from origin.
+75,27,CUSTOMS_CLEARANCE,2026-05-28,Shipment underwent customs clearance.
+76,27,DELIVERED,2026-06-08,Shipment successfully delivered.
+77,28,DEPARTED,2026-05-27,Shipment departed from origin.
+78,28,CUSTOMS_CLEARANCE,2026-05-29,Shipment underwent customs clearance.
+79,28,DELIVERED,2026-06-10,Shipment successfully delivered.
+80,29,DEPARTED,2026-02-12,Shipment departed from origin.
+81,29,DELIVERED,2026-03-03,Shipment successfully delivered.
+82,30,DEPARTED,2026-03-13,Shipment departed from origin.
+83,30,DELIVERED,2026-04-06,Shipment successfully delivered.
+84,31,DEPARTED,2026-07-29,Shipment departed from origin.
+85,31,DELAY,2026-08-14,Shipment experienced an operational delay.
+86,31,DELIVERED,2026-08-19,Shipment delivered after operational delay.
+87,32,DEPARTED,2026-05-30,Shipment departed from origin.
+88,32,DELAY,2026-06-09,Shipment experienced an operational delay.
+89,32,DELIVERED,2026-06-26,Shipment delivered after operational delay.
+90,33,DEPARTED,2026-06-07,Shipment departed from origin.
+91,33,DELIVERED,2026-06-26,Shipment successfully delivered.
+92,34,DEPARTED,2026-04-11,Shipment departed from origin.
+93,34,IN_TRANSIT_UPDATE,2026-04-17,Shipment remains in transit.
+94,35,DEPARTED,2026-03-07,Shipment departed from origin.
+95,35,IN_TRANSIT_UPDATE,2026-03-12,Shipment remains in transit.
+96,36,DEPARTED,2026-04-06,Shipment departed from origin.
+97,36,DELIVERED,2026-04-23,Shipment successfully delivered.
+98,37,DEPARTED,2026-03-26,Shipment departed from origin.
+99,37,DELIVERED,2026-04-17,Shipment successfully delivered.
+100,38,DEPARTED,2026-03-14,Shipment departed from origin.
+101,38,CUSTOMS_CLEARANCE,2026-03-20,Shipment underwent customs clearance.
+102,38,DELIVERED,2026-04-04,Shipment successfully delivered.
+103,39,DEPARTED,2026-07-02,Shipment departed from origin.
+104,39,CUSTOMS_CLEARANCE,2026-07-08,Shipment underwent customs clearance.
+105,39,DELIVERED,2026-07-13,Shipment successfully delivered.
+106,40,DEPARTED,2026-02-14,Shipment departed from origin.
+107,40,CUSTOMS_CLEARANCE,2026-02-18,Shipment underwent customs clearance.
+108,40,DELIVERED,2026-03-10,Shipment successfully delivered.
+109,41,DEPARTED,2026-04-05,Shipment departed from origin.
+110,41,DELIVERED,2026-04-30,Shipment successfully delivered.
+111,42,DEPARTED,2026-02-22,Shipment departed from origin.
+112,42,DELIVERED,2026-03-19,Shipment successfully delivered.
+113,43,DEPARTED,2026-01-16,Shipment departed from origin.
+114,43,IN_TRANSIT_UPDATE,2026-01-25,Shipment remains in transit.
+115,44,DEPARTED,2026-04-23,Shipment departed from origin.
+116,44,CUSTOMS_CLEARANCE,2026-04-26,Shipment underwent customs clearance.
+117,44,DELIVERED,2026-05-04,Shipment successfully delivered.
+118,45,DEPARTED,2026-02-03,Shipment departed from origin.
+119,45,DELAY,2026-02-11,Shipment experienced an operational delay.
+120,45,DELIVERED,2026-02-18,Shipment delivered after operational delay.
+121,46,DEPARTED,2026-07-06,Shipment departed from origin.
+122,46,CUSTOMS_CLEARANCE,2026-07-07,Shipment underwent customs clearance.
+123,46,DELAY,2026-07-14,Shipment experienced an operational delay.
+124,46,DELIVERED,2026-08-02,Shipment delivered after operational delay.
+125,47,DEPARTED,2026-05-30,Shipment departed from origin.
+126,47,DELIVERED,2026-06-08,Shipment successfully delivered.
+127,48,DEPARTED,2026-02-14,Shipment departed from origin.
+128,48,CUSTOMS_CLEARANCE,2026-02-19,Shipment underwent customs clearance.
+129,48,DELIVERED,2026-03-07,Shipment successfully delivered.
+130,49,DEPARTED,2026-02-14,Shipment departed from origin.
+131,49,IN_TRANSIT_UPDATE,2026-02-20,Shipment remains in transit.
+132,50,DEPARTED,2026-04-17,Shipment departed from origin.
+133,50,CUSTOMS_CLEARANCE,2026-04-21,Shipment underwent customs clearance.
+134,50,DELAY,2026-04-20,Shipment experienced an operational delay.
+135,50,DELIVERED,2026-04-30,Shipment delivered after operational delay.
+136,51,DEPARTED,2026-03-30,Shipment departed from origin.
+137,51,DELAY,2026-04-19,Shipment experienced an operational delay.
+138,51,DELIVERED,2026-05-06,Shipment delivered after operational delay.
+139,52,DEPARTED,2026-01-27,Shipment departed from origin.
+140,52,CUSTOMS_CLEARANCE,2026-01-29,Shipment underwent customs clearance.
+141,52,DELIVERED,2026-02-06,Shipment successfully delivered.
+142,53,DEPARTED,2026-04-09,Shipment departed from origin.
+143,53,CUSTOMS_CLEARANCE,2026-04-14,Shipment underwent customs clearance.
+144,53,DELIVERED,2026-04-21,Shipment successfully delivered.
+145,54,DEPARTED,2026-06-15,Shipment departed from origin.
+146,54,IN_TRANSIT_UPDATE,2026-06-25,Shipment remains in transit.
+147,55,DEPARTED,2026-02-22,Shipment departed from origin.
+148,55,DELIVERED,2026-03-06,Shipment successfully delivered.
+149,56,DEPARTED,2026-02-15,Shipment departed from origin.
+150,56,IN_TRANSIT_UPDATE,2026-02-21,Shipment remains in transit.
+151,57,DEPARTED,2026-07-22,Shipment departed from origin.
+152,57,CUSTOMS_CLEARANCE,2026-07-24,Shipment underwent customs clearance.
+153,57,DELAY,2026-08-02,Shipment experienced an operational delay.
+154,57,DELIVERED,2026-08-26,Shipment delivered after operational delay.
+155,58,DEPARTED,2026-05-10,Shipment departed from origin.
+156,58,DELIVERED,2026-05-23,Shipment successfully delivered.
+157,59,DEPARTED,2026-03-07,Shipment departed from origin.
+158,59,DELIVERED,2026-03-19,Shipment successfully delivered.
+159,60,DEPARTED,2026-03-31,Shipment departed from origin.
+160,60,IN_TRANSIT_UPDATE,2026-04-03,Shipment remains in transit.
+161,61,DEPARTED,2026-01-23,Shipment departed from origin.
+162,61,DELIVERED,2026-02-09,Shipment successfully delivered.
+163,62,DEPARTED,2026-05-27,Shipment departed from origin.
+164,62,IN_TRANSIT_UPDATE,2026-06-03,Shipment remains in transit.
+165,63,DEPARTED,2026-04-04,Shipment departed from origin.
+166,63,DELIVERED,2026-04-20,Shipment successfully delivered.
+167,64,DEPARTED,2026-04-05,Shipment departed from origin.
+168,64,IN_TRANSIT_UPDATE,2026-04-15,Shipment remains in transit.
+169,65,DEPARTED,2026-03-14,Shipment departed from origin.
+170,65,DELIVERED,2026-03-23,Shipment successfully delivered.
+171,66,DEPARTED,2026-04-11,Shipment departed from origin.
+172,66,DELAY,2026-04-28,Shipment experienced an operational delay.
+173,66,DELIVERED,2026-05-23,Shipment delivered after operational delay.
+174,67,DEPARTED,2026-01-12,Shipment departed from origin.
+175,67,DELIVERED,2026-01-23,Shipment successfully delivered.
+176,68,DEPARTED,2026-01-28,Shipment departed from origin.
+177,68,CUSTOMS_CLEARANCE,2026-02-03,Shipment underwent customs clearance.
+178,68,IN_TRANSIT_UPDATE,2026-01-30,Shipment remains in transit.
+179,69,DEPARTED,2026-06-24,Shipment departed from origin.
+180,69,DELIVERED,2026-07-06,Shipment successfully delivered.
+181,70,DEPARTED,2026-02-13,Shipment departed from origin.
+182,70,IN_TRANSIT_UPDATE,2026-02-18,Shipment remains in transit.
+183,71,DEPARTED,2026-02-18,Shipment departed from origin.
+184,71,DELAY,2026-03-11,Shipment experienced an operational delay.
+185,71,DELIVERED,2026-03-23,Shipment delivered after operational delay.
+186,72,DEPARTED,2026-03-24,Shipment departed from origin.
+187,72,CUSTOMS_CLEARANCE,2026-03-28,Shipment underwent customs clearance.
+188,72,DELIVERED,2026-04-09,Shipment successfully delivered.
+189,73,DEPARTED,2026-06-21,Shipment departed from origin.
+190,73,CUSTOMS_CLEARANCE,2026-06-22,Shipment underwent customs clearance.
+191,73,DELIVERED,2026-07-09,Shipment successfully delivered.
+192,74,DEPARTED,2026-01-28,Shipment departed from origin.
+193,74,DELIVERED,2026-02-20,Shipment successfully delivered.
+194,75,DEPARTED,2026-06-18,Shipment departed from origin.
+195,75,DELIVERED,2026-07-02,Shipment successfully delivered.
+196,76,DEPARTED,2026-02-05,Shipment departed from origin.
+197,76,CUSTOMS_CLEARANCE,2026-02-10,Shipment underwent customs clearance.
+198,76,DELIVERED,2026-02-22,Shipment successfully delivered.
+199,77,DEPARTED,2026-01-29,Shipment departed from origin.
+200,77,DELIVERED,2026-02-22,Shipment successfully delivered.
+201,78,DEPARTED,2026-02-04,Shipment departed from origin.
+202,78,DELIVERED,2026-02-18,Shipment successfully delivered.
+203,79,DEPARTED,2026-04-11,Shipment departed from origin.
+204,79,CUSTOMS_CLEARANCE,2026-04-17,Shipment underwent customs clearance.
+205,79,DELIVERED,2026-04-19,Shipment successfully delivered.
+206,80,DEPARTED,2026-06-12,Shipment departed from origin.
+207,80,CUSTOMS_CLEARANCE,2026-06-18,Shipment underwent customs clearance.
+208,80,IN_TRANSIT_UPDATE,2026-06-21,Shipment remains in transit.
+209,81,DEPARTED,2026-07-21,Shipment departed from origin.
+210,81,DELIVERED,2026-07-30,Shipment successfully delivered.
+211,82,DEPARTED,2026-02-27,Shipment departed from origin.
+212,82,CUSTOMS_CLEARANCE,2026-03-06,Shipment underwent customs clearance.
+213,82,DELAY,2026-03-12,Shipment experienced an operational delay.
+214,82,DELIVERED,2026-03-23,Shipment delivered after operational delay.
+215,83,DEPARTED,2026-07-05,Shipment departed from origin.
+216,83,DELIVERED,2026-07-29,Shipment successfully delivered.
+217,84,DEPARTED,2026-07-06,Shipment departed from origin.
+218,84,DELAY,2026-07-26,Shipment experienced an operational delay.
+219,84,DELIVERED,2026-08-10,Shipment delivered after operational delay.
+220,85,DEPARTED,2026-01-31,Shipment departed from origin.
+221,85,DELAY,2026-02-17,Shipment experienced an operational delay.
+222,85,DELIVERED,2026-03-03,Shipment delivered after operational delay.
+223,86,DEPARTED,2026-07-13,Shipment departed from origin.
+224,86,CUSTOMS_CLEARANCE,2026-07-14,Shipment underwent customs clearance.
+225,86,DELIVERED,2026-07-23,Shipment successfully delivered.
+226,87,DEPARTED,2026-04-19,Shipment departed from origin.
+227,87,CUSTOMS_CLEARANCE,2026-04-22,Shipment underwent customs clearance.
+228,87,DELIVERED,2026-05-09,Shipment successfully delivered.
+229,88,DEPARTED,2026-06-20,Shipment departed from origin.
+230,88,DELIVERED,2026-07-10,Shipment successfully delivered.
+231,89,DEPARTED,2026-02-19,Shipment departed from origin.
+232,89,DELAY,2026-02-24,Shipment experienced an operational delay.
+233,89,DELIVERED,2026-03-05,Shipment delivered after operational delay.
+234,90,DEPARTED,2026-06-05,Shipment departed from origin.
+235,90,CUSTOMS_CLEARANCE,2026-06-07,Shipment underwent customs clearance.
+236,90,DELIVERED,2026-06-13,Shipment successfully delivered.
+237,91,DEPARTED,2026-05-23,Shipment departed from origin.
+238,91,DELAY,2026-06-08,Shipment experienced an operational delay.
+239,91,DELIVERED,2026-06-15,Shipment delivered after operational delay.
+240,92,DEPARTED,2026-02-26,Shipment departed from origin.
+241,92,CUSTOMS_CLEARANCE,2026-03-02,Shipment underwent customs clearance.
+242,92,DELIVERED,2026-03-12,Shipment successfully delivered.
+243,93,DEPARTED,2026-07-11,Shipment departed from origin.
+244,93,DELIVERED,2026-08-04,Shipment successfully delivered.
+245,94,DEPARTED,2026-06-19,Shipment departed from origin.
+246,94,DELIVERED,2026-07-09,Shipment successfully delivered.
+247,95,DEPARTED,2026-06-28,Shipment departed from origin.
+248,95,DELIVERED,2026-07-19,Shipment successfully delivered.
+249,96,DEPARTED,2026-06-07,Shipment departed from origin.
+250,96,CUSTOMS_CLEARANCE,2026-06-13,Shipment underwent customs clearance.
+251,96,DELIVERED,2026-06-16,Shipment successfully delivered.
+252,97,DEPARTED,2026-03-02,Shipment departed from origin.
+253,97,DELIVERED,2026-03-26,Shipment successfully delivered.
+254,98,DEPARTED,2026-02-20,Shipment departed from origin.
+255,98,DELAY,2026-03-13,Shipment experienced an operational delay.
+256,98,DELIVERED,2026-03-21,Shipment delivered after operational delay.
+257,99,DEPARTED,2026-06-29,Shipment departed from origin.
+258,99,DELIVERED,2026-07-13,Shipment successfully delivered.
+259,100,DEPARTED,2026-02-03,Shipment departed from origin.
+260,100,DELIVERED,2026-02-25,Shipment successfully delivered.

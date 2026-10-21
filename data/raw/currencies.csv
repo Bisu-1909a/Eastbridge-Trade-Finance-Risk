@@ -1,0 +1,11 @@
+currency_id,currency_code,currency_name
+1,USD,US Dollar
+2,EUR,Euro
+3,GBP,British Pound
+4,INR,Indian Rupee
+5,CNY,Chinese Yuan
+6,JPY,Japanese Yen
+7,SGD,Singapore Dollar
+8,AED,United Arab Emirates Dirham
+9,AUD,Australian Dollar
+10,CAD,Canadian Dollar
