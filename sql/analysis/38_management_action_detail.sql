@@ -14,27 +14,16 @@
 WITH financial_risk AS (
     SELECT
         trade_id,
-        outstanding_exposure
+        outstanding AS outstanding_exposure
     FROM (
         SELECT
-            trade_id,
-            outstanding_exposure
-        FROM (
-            SELECT
-                trade_id,
-                outstanding
-                    AS outstanding_exposure
-            FROM (
-                SELECT
-                    i.trade_id,
-                    i.invoice_amount - COALESCE(p.payment_amount, 0) AS outstanding
-                FROM invoice i
-                LEFT JOIN payment p
-                    ON i.invoice_id = p.invoice_id
-            )
-            WHERE outstanding > 0
-        )
-    )
+            i.trade_id,
+            i.invoice_amount - COALESCE(p.payment_amount, 0) AS outstanding
+        FROM invoice i
+        LEFT JOIN payment p
+            ON i.invoice_id = p.invoice_id
+    ) AS invoice_balance
+    WHERE outstanding > 0
 ),
 
 fx_risk AS (
